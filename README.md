@@ -64,6 +64,12 @@ reads the input in fixed-size chunks and feeds them to the parser
 incrementally, so the memory footprint doesn't grow with file size --
 only the set of seen URLs does, which is unavoidable for dedup.
 
+## tests
+
+```
+python3 -m unittest discover -s tests
+```
+
 ## license
 
 MIT, see LICENSE.
